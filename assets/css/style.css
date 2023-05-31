@@ -1,12 +1,19 @@
+/* This code sets the box-sizing property to border-box, padding to 0, and margin to 0. */
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* This code defines the background color of the page. */
 body {
   background-color: #d9dcd6;
 }
+
+/* This code creates a header with a title and navigation bar. The title
+   is the name of the website, and the navigation bar contains links
+   to other pages on the website. */
 
 .header {
   padding: 20px;
@@ -51,6 +58,7 @@ p {
   font-size: 16px;
 }
 
+/* This code sets the styles for the hero section of the home page. The hero section is a full-width section with a background image that is intended to be eye-catching. */
 .hero {
   height: 800px;
   width: 100%;
@@ -70,8 +78,13 @@ p {
   margin-left: 25px;
 }
 
+/* This code defines the look of the content and benefits sections of the web page. 
+The content section is the main part of the page and contains the main text and images. 
+The benefits section is a sidebar that contains a list of benefits that the user will receive from using the service. */
+
 .content {
   width: 75%;
+  height: 100%;
   display: inline-block;
   margin-left: 20px;
 }
@@ -87,6 +100,11 @@ p {
   background-color: #2589bd;
 }
 
+/* Here is the explanation for the code below:
+1. We are using the .benefits .benefit-lead,.benefits .benefit-brand,.benefits .benefit-cost selector to select all elements with the class name benefit-lead, benefit-brand and benefit-cost that are inside an element with the class name benefits.
+2. We are setting the margin-top and margin-bottom properties to 15px and 32px respectively.
+3. We are setting the color property to #ffffff. */
+
 .benefits .benefit-lead,
 .benefits .benefit-brand,
 .benefits .benefit-cost {
@@ -95,6 +113,12 @@ p {
   color: #ffffff;
 }
 
+/* Here is the explanation for the code below:
+1. We use the class selector to select the 3 benefits sections.
+2. We use the child combinator selector to select the h3 elements that are direct children of the benefits sections.
+3. We use the text-align property to center the text of the h3 elements.
+4. We use the margin-bottom property to add a small amount of space between the h3 elements and the paragraphs. */
+
 .benefits .benefit-lead h3,
 .benefits .benefit-brand h3,
 .benefits .benefit-cost h3 {
@@ -102,6 +126,12 @@ p {
   text-align: center;
 }
 
+/* Here is the explanation for the code below:
+1. The .benefits .benefit-lead, .benefits .benefit-brand, and .benefits .benefit-cost are the selectors.
+2. The img is the child selector.
+3. The display: block; is the property.
+4. The margin: 10px auto; is the property value.
+5. The max-width: 150px; is the property value. */
 .benefits .benefit-lead img,
 .benefits .benefit-brand img,
 .benefits .benefit-cost img {
@@ -109,6 +139,8 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
+
+/* This code defines the classes used for styling the main content section of the web page. */
 
 .search-engine-optimization,
 .online-reputation-management,
@@ -134,6 +166,11 @@ p {
   font-size: 36px;
 }
 
+/* This is the footer code. 
+It is styled with padding on all sides, 
+a clear to make sure it is below the floated content, 
+a font-family, 
+and text-align to make sure it is centered. */
 .footer {
   padding: 30px;
   clear: both;

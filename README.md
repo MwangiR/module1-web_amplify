@@ -1,4 +1,9 @@
 # module1_refactor
+
+# Web Amplify
+
+"Digital Marketing Agency: Boost Your Online Presence"
+
 # Code Refactoring: HTML and CSS
 
 In this code refactoring exercise, we have made significant improvements to the structure and organization of both the HTML and CSS files. The goal was to improve readability, maintainability, and adhere to semantic coding practices.
