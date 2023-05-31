@@ -62,7 +62,8 @@ p {
 .hero {
   height: 800px;
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  margin-top: 1px;
   background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
@@ -81,7 +82,6 @@ p {
 /* This code defines the look of the content and benefits sections of the web page. 
 The content section is the main part of the page and contains the main text and images. 
 The benefits section is a sidebar that contains a list of benefits that the user will receive from using the service. */
-
 .content {
   width: 75%;
   height: 100%;
