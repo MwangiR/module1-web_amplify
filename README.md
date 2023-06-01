@@ -4,6 +4,10 @@
 
 "Digital Marketing Agency: Boost Your Online Presence"
 
+## Link
+
+[I'm an inline-style link with title](https://mwangir.github.io/module1-web_amplify/ "Github Pages")
+
 # Code Refactoring: HTML and CSS
 
 In this code refactoring exercise, we have made significant improvements to the structure and organization of both the HTML and CSS files. The goal was to improve readability, maintainability, and adhere to semantic coding practices.
@@ -31,3 +35,7 @@ These changes have several advantages:
 - Enhanced maintainability: The code is now better organized and documented, making it easier for future developers to modify and update.
 
 Please review the updated HTML and CSS files to see the detailed changes made. Feel free to provide any feedback or suggestions for further improvements.
+
+## Screenshot
+
+[Screenshot](</assets/images/127.0.0.1_5500_index.html%20(1).png>)
