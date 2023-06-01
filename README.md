@@ -6,7 +6,7 @@
 
 ## Link
 
-[I'm an inline-style link with title](https://mwangir.github.io/module1-web_amplify/ "Github Pages")
+[Github Pages](https://mwangir.github.io/module1-web_amplify/ "Github Pages")
 
 # Code Refactoring: HTML and CSS
 
